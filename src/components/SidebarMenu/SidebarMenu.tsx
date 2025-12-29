@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaChevronDown, FaTimes } from 'react-icons/fa';
 import clsx from 'clsx';
+
 import type { MenuItem, SidebarMenuProps } from './SidebarMenu.types';
 
 const NavItem = ({ item, depth = 0 }: { item: MenuItem; depth?: number }) => {

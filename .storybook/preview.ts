@@ -1,4 +1,4 @@
-import type { Preview } from "@storybook/react";
+import type { Preview } from '@storybook/react';
 import '../src/index.css';
 
 const preview: Preview = {
@@ -19,8 +19,9 @@ const preview: Preview = {
   },
   decorators: [
     (Story, context) => {
-      const theme = context.globals.backgrounds?.value === '#1a1a1a' ? 'dark' : 'light';
-      
+      const theme =
+        context.globals.backgrounds?.value === '#1a1a1a' ? 'dark' : 'light';
+
       useEffect(() => {
         const html = document.documentElement;
         if (theme === 'dark') {
@@ -35,5 +36,5 @@ const preview: Preview = {
   ],
 };
 
-import { useEffect } from "react"; 
+import { useEffect } from 'react';
 export default preview;

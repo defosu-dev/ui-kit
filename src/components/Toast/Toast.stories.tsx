@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import type { Meta, StoryObj } from '@storybook/react';
-import { Toast } from './Toast';
-import { Button } from '../Button/Button';
+import type { Meta, StoryObj } from '@storybook/react-vite';
 import { AnimatePresence } from 'framer-motion';
+
+import { Button } from '../Button/Button';
+
+import { Toast } from './Toast';
 import type { ToastProps, ToastVariant } from './Toast.types';
 
 const meta: Meta<typeof Toast> = {

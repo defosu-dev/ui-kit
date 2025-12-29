@@ -1,8 +1,10 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { SidebarMenu } from './SidebarMenu';
+import type { Meta, StoryObj } from '@storybook/react-vite';
 import { useState } from 'react';
-import { Button } from '../Button/Button';
 import { FaHome, FaChartBar, FaCog } from 'react-icons/fa';
+
+import { Button } from '../Button/Button';
+
+import { SidebarMenu } from './SidebarMenu';
 
 const meta: Meta<typeof SidebarMenu> = {
   title: 'Components/SidebarMenu',

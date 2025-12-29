@@ -2,6 +2,7 @@ import { forwardRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaEye, FaEyeSlash, FaTimes } from 'react-icons/fa';
 import clsx from 'clsx';
+
 import type { InputProps } from './Input.types';
 
 export const Input = forwardRef<HTMLInputElement, InputProps>(

@@ -8,6 +8,7 @@ import {
   FaTimes,
 } from 'react-icons/fa';
 import clsx from 'clsx';
+
 import type { ToastProps, ToastVariant } from './Toast.types';
 
 const variantStyles: Record<
