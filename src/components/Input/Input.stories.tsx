@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Input } from './Input';
 import { useForm, Controller } from 'react-hook-form';
+import { Button } from '../Button/Button';
 
 const meta: Meta<typeof Input> = {
   title: 'Components/Input',
@@ -133,9 +134,7 @@ export const AuthForm: Story = {
                 />
               )}
             />
-            <button className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-bold shadow-lg shadow-blue-500/30 transition-all active:scale-95">
-              Continue
-            </button>
+            <Button className="w-full">Continue</Button>
           </form>
         </div>
       </InputShowcase>
